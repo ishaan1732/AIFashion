@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fafafa;
+  --foreground: #18181b;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Clean minimal card styling */
+.clean-card {
+  background: #ffffff;
+  border: 1px solid #e4e4e7;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
+}
