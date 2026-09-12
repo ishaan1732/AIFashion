@@ -1,4 +1,12 @@
-export type Brand = "Zara" | "Calvin Klein" | "Boss";
+export type Brand =
+  | "Zara"
+  | "H&M"
+  | "Uniqlo"
+  | "Calvin Klein"
+  | "Boss"
+  | "Gucci"
+  | "Saint Laurent"
+  | "Louis Vuitton";
 
 export type Category = "top" | "trouser" | "outerwear" | "full-look";
 
@@ -12,6 +20,7 @@ export interface CatalogItem {
   title: string;
   category: Category;
   vibe: FashionVibe[];
+  gender: "male" | "female";
   price: number;
   imageUrl: string;
   productUrl: string;

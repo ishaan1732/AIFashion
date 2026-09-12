@@ -7,10 +7,11 @@ export interface SearchFilters {
   category: "top" | "trouser";
   vibe: "comfy" | "beach" | "party";
   budgetTier: "under-75" | "75-150" | "150-250" | "above-250";
+  gender: "male" | "female";
 }
 
 export function searchCatalog(filters: SearchFilters): CatalogItem[] {
-  const { category, vibe, budgetTier } = filters;
+  const { category, vibe, budgetTier, gender } = filters;
 
   let maxBudget = 9999;
   let minBudget = 0;
@@ -29,17 +30,22 @@ export function searchCatalog(filters: SearchFilters): CatalogItem[] {
 
   const exact = fullCatalog.filter(
     (item) =>
+      item.gender === gender &&
       item.category === category &&
       item.vibe.includes(vibe) &&
       item.price >= minBudget &&
       item.price <= maxBudget
   );
 
-  const categoryAndVibe = fullCatalog.filter(
-    (item) => item.category === category && item.vibe.includes(vibe)
+  const genderCategoryVibe = fullCatalog.filter(
+    (item) => item.gender === gender && item.category === category && item.vibe.includes(vibe)
   );
 
-  const categoryOnly = fullCatalog.filter((item) => item.category === category);
+  const genderCategoryOnly = fullCatalog.filter(
+    (item) => item.gender === gender && item.category === category
+  );
+
+  const genderOnly = fullCatalog.filter((item) => item.gender === gender);
 
   const combined: CatalogItem[] = [];
   const addedIds = new Set<string>();
@@ -54,9 +60,9 @@ export function searchCatalog(filters: SearchFilters): CatalogItem[] {
   };
 
   addItems(exact);
-  addItems(categoryAndVibe);
-  addItems(categoryOnly);
-  addItems(fullCatalog);
+  addItems(genderCategoryVibe);
+  addItems(genderCategoryOnly);
+  addItems(genderOnly);
 
   return combined.slice(0, 6);
 }

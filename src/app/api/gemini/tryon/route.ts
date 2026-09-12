@@ -1,9 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
+import fs from "fs";
+import path from "path";
 import { getGeminiClient } from "@/lib/gemini";
 import { fullCatalog } from "@/lib/catalog";
 
 async function urlToBase64(url: string): Promise<{ data: string; mimeType: string } | null> {
   try {
+    if (url.startsWith("/")) {
+      const buffer = fs.readFileSync(path.join(process.cwd(), "public", url));
+      return {
+        data: buffer.toString("base64"),
+        mimeType: "image/png",
+      };
+    }
+
     const res = await fetch(url);
     if (!res.ok) return null;
     const arrayBuffer = await res.arrayBuffer();

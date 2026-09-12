@@ -7,6 +7,7 @@ import { Sparkles, Upload, Camera, ExternalLink, RefreshCw, Check, ArrowRight, L
 
 export default function SimpleFashionApp() {
   // 1. Question selections (buttons)
+  const [gender, setGender] = useState<SearchFilters["gender"]>("female");
   const [budgetTier, setBudgetTier] = useState<SearchFilters["budgetTier"]>("75-150");
   const [vibe, setVibe] = useState<SearchFilters["vibe"]>("party");
   const [category, setCategory] = useState<SearchFilters["category"]>("top");
@@ -32,7 +33,7 @@ export default function SimpleFashionApp() {
 
   // Search Outfits
   const handleSearch = () => {
-    const items = searchCatalog({ budgetTier, vibe, category });
+    const items = searchCatalog({ budgetTier, vibe, category, gender });
     setResults(items);
     setHasSearched(true);
     setVirtualResult(null);
@@ -262,10 +263,36 @@ export default function SimpleFashionApp() {
             </p>
           </div>
 
-          {/* Question 1: Budget */}
+          {/* Question 1: Gender */}
           <div className="space-y-2">
             <label className="text-xs font-bold uppercase tracking-wider text-zinc-600">
-              1. What is your budget?
+              1. Who are you shopping for?
+            </label>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
+              {[
+                { id: "male", label: "Male" },
+                { id: "female", label: "Female" },
+              ].map((option) => (
+                <button
+                  key={option.id}
+                  type="button"
+                  onClick={() => setGender(option.id as any)}
+                  className={`py-3 px-4 rounded-xl text-sm font-semibold border transition-all ${
+                    gender === option.id
+                      ? "bg-black text-white border-black shadow-sm"
+                      : "bg-zinc-50 text-zinc-700 border-zinc-200 hover:bg-zinc-100"
+                  }`}
+                >
+                  {option.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Question 2: Budget */}
+          <div className="space-y-2">
+            <label className="text-xs font-bold uppercase tracking-wider text-zinc-600">
+              2. What is your budget?
             </label>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
               {[
@@ -290,10 +317,10 @@ export default function SimpleFashionApp() {
             </div>
           </div>
 
-          {/* Question 2: Fashion Style */}
+          {/* Question 3: Fashion Style */}
           <div className="space-y-2">
             <label className="text-xs font-bold uppercase tracking-wider text-zinc-600">
-              2. What is your fashion style / occasion?
+              3. What is your fashion style / occasion?
             </label>
             <div className="grid grid-cols-3 gap-2.5">
               {[
@@ -318,10 +345,10 @@ export default function SimpleFashionApp() {
             </div>
           </div>
 
-          {/* Question 3: Item looking for */}
+          {/* Question 4: Item looking for */}
           <div className="space-y-2">
             <label className="text-xs font-bold uppercase tracking-wider text-zinc-600">
-              3. What item are you looking for?
+              4. What item are you looking for?
             </label>
             <div className="grid grid-cols-2 gap-2.5">
               {[
@@ -371,7 +398,7 @@ export default function SimpleFashionApp() {
                 </p>
               </div>
               <div className="text-xs font-medium text-zinc-600 bg-zinc-100 px-3 py-1 rounded-full w-fit">
-                {category.toUpperCase()} • {vibe.toUpperCase()}
+                {gender.toUpperCase()} • {category.toUpperCase()} • {vibe.toUpperCase()}
               </div>
             </div>
 
@@ -394,6 +421,9 @@ export default function SimpleFashionApp() {
                     </div>
                     <div className="absolute top-2.5 right-2.5 bg-white text-black text-xs font-bold px-2 py-0.5 rounded shadow">
                       ${item.price.toFixed(2)}
+                    </div>
+                    <div className="absolute bottom-2.5 left-2.5 bg-white text-black text-xs font-bold w-6 h-6 flex items-center justify-center rounded-full shadow">
+                      {item.gender === "male" ? "♂" : "♀"}
                     </div>
                   </div>
 

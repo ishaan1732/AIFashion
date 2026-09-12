@@ -1,236 +1,1352 @@
 [
   {
-    "id": "zara-01",
+    "id": "zara-oversized-hoodie",
     "brand": "Zara",
-    "title": "Textured Relaxed Linen Shirt",
+    "title": "Oversized Hoodie",
     "category": "top",
-    "vibe": ["beach", "comfy"],
-    "price": 49.90,
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 69.9,
+    "color": "Heather Grey",
+    "description": "Heather Grey oversized cotton hoodie with kangaroo pocket and ribbed cuffs.",
     "productUrl": "https://www.zara.com",
-    "color": "Sand / Ivory",
-    "description": "Breathable 100% European linen button-down with a relaxed camp collar, perfect for warm breezes and effortless coastal luxury.",
-    "matchHighlights": ["Breathable weave", "Neutral tone pairing", "Airy silhouette"]
+    "imageUrl": "/catalog/zara-oversized-hoodie.png"
   },
   {
-    "id": "zara-02",
+    "id": "hm-oversized-hoodie",
+    "brand": "H&M",
+    "title": "Oversized Hoodie",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 49.9,
+    "color": "Washed Black",
+    "description": "Washed Black oversized cotton hoodie with kangaroo pocket and ribbed cuffs.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-oversized-hoodie.png"
+  },
+  {
+    "id": "hm-boxy-crewneck-sweatshirt",
+    "brand": "H&M",
+    "title": "Boxy Crewneck Sweatshirt",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 69.9,
+    "color": "Black",
+    "description": "Black boxy crewneck sweatshirt in heavyweight cotton fleece.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-boxy-crewneck-sweatshirt.png"
+  },
+  {
+    "id": "uniqlo-boxy-crewneck-sweatshirt",
+    "brand": "Uniqlo",
+    "title": "Boxy Crewneck Sweatshirt",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 49.9,
+    "color": "Stone",
+    "description": "Stone boxy crewneck sweatshirt in heavyweight cotton fleece.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-boxy-crewneck-sweatshirt.png"
+  },
+  {
+    "id": "uniqlo-waffle-henley-long-sleeve",
+    "brand": "Uniqlo",
+    "title": "Waffle Henley Long-Sleeve",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 29.9,
+    "color": "Charcoal",
+    "description": "Charcoal waffle-knit henley with button placket and long sleeves.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-waffle-henley-long-sleeve.png"
+  },
+  {
+    "id": "ck-waffle-henley-long-sleeve",
+    "brand": "Calvin Klein",
+    "title": "Waffle Henley Long-Sleeve",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 100,
+    "color": "Cream",
+    "description": "Cream waffle-knit henley with button placket and long sleeves.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-waffle-henley-long-sleeve.png"
+  },
+  {
+    "id": "ck-zip-up-fleece-jacket",
+    "brand": "Calvin Klein",
+    "title": "Zip-Up Fleece Jacket",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 140,
+    "color": "Navy",
+    "description": "Navy zip-up fleece jacket with stand collar and side pockets.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-zip-up-fleece-jacket.png"
+  },
+  {
+    "id": "zara-zip-up-fleece-jacket",
     "brand": "Zara",
-    "title": "Satin Finish Drape Blouse",
+    "title": "Zip-Up Fleece Jacket",
     "category": "top",
-    "vibe": ["party"],
-    "price": 59.90,
-    "imageUrl": "https://images.unsplash.com/photo-1551803091-e20673f15770?auto=format&fit=crop&w=800&q=80",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 39.9,
+    "color": "Grey",
+    "description": "Grey zip-up fleece jacket with stand collar and side pockets.",
     "productUrl": "https://www.zara.com",
-    "color": "Midnight Champagne",
-    "description": "Fluid satin finish blouse with an architectural cowl neckline, bringing subtle glimmer under night lights.",
-    "matchHighlights": ["Evening sheen", "Statement neckline", "Pairs with tailored pants"]
+    "imageUrl": "/catalog/zara-zip-up-fleece-jacket.png"
   },
   {
-    "id": "zara-03",
+    "id": "zara-cropped-knit-sweater",
     "brand": "Zara",
-    "title": "Pleated Wide-Leg Fluid Trousers",
-    "category": "trouser",
-    "vibe": ["party", "comfy"],
-    "price": 69.90,
-    "imageUrl": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
+    "title": "Cropped Knit Sweater",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 49.9,
+    "color": "Cream",
+    "description": "Cream cropped knit sweater with ribbed hem and relaxed fit.",
     "productUrl": "https://www.zara.com",
-    "color": "Deep Obsidian",
-    "description": "High-waisted trousers with front double pleats and an elongated drape that flatters any posture.",
-    "matchHighlights": ["Architectural drape", "Leg-lengthening", "Chic evening edge"]
+    "imageUrl": "/catalog/zara-cropped-knit-sweater.png"
   },
   {
-    "id": "zara-04",
+    "id": "hm-cropped-knit-sweater",
+    "brand": "H&M",
+    "title": "Cropped Knit Sweater",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 19.9,
+    "color": "Blush Pink",
+    "description": "Blush Pink cropped knit sweater with ribbed hem and relaxed fit.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-cropped-knit-sweater.png"
+  },
+  {
+    "id": "hm-oversized-boyfriend-cardigan",
+    "brand": "H&M",
+    "title": "Oversized Boyfriend Cardigan",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 59.9,
+    "color": "Camel",
+    "description": "Camel oversized boyfriend cardigan with dropped shoulders and patch pockets.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-oversized-boyfriend-cardigan.png"
+  },
+  {
+    "id": "uniqlo-oversized-boyfriend-cardigan",
+    "brand": "Uniqlo",
+    "title": "Oversized Boyfriend Cardigan",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 19.9,
+    "color": "Grey",
+    "description": "Grey oversized boyfriend cardigan with dropped shoulders and patch pockets.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-oversized-boyfriend-cardigan.png"
+  },
+  {
+    "id": "uniqlo-ribbed-long-sleeve-top",
+    "brand": "Uniqlo",
+    "title": "Ribbed Long-Sleeve Top",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 39.9,
+    "color": "Black",
+    "description": "Black ribbed long-sleeve top with a fitted, stretchy silhouette.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-ribbed-long-sleeve-top.png"
+  },
+  {
+    "id": "ck-ribbed-long-sleeve-top",
+    "brand": "Calvin Klein",
+    "title": "Ribbed Long-Sleeve Top",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 70,
+    "color": "Lilac",
+    "description": "Lilac ribbed long-sleeve top with a fitted, stretchy silhouette.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-ribbed-long-sleeve-top.png"
+  },
+  {
+    "id": "ck-fleece-quarter-zip",
+    "brand": "Calvin Klein",
+    "title": "Fleece Quarter-Zip",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 130,
+    "color": "Taupe",
+    "description": "Taupe fleece quarter-zip pullover with a stand collar.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-fleece-quarter-zip.png"
+  },
+  {
+    "id": "zara-fleece-quarter-zip",
     "brand": "Zara",
-    "title": "Drawstring Linen-Blend Jogger Trousers",
-    "category": "trouser",
-    "vibe": ["beach", "comfy"],
-    "price": 55.90,
-    "imageUrl": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=800&q=80",
+    "title": "Fleece Quarter-Zip",
+    "category": "top",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 69.9,
+    "color": "Navy",
+    "description": "Navy fleece quarter-zip pullover with a stand collar.",
     "productUrl": "https://www.zara.com",
-    "color": "Oatmeal Beige",
-    "description": "Ultra-lightweight drawstring trousers crafted for effortless seaside strolls and casual summer terrace dining.",
-    "matchHighlights": ["Elastic drawstring waist", "Featherweight fabric", "Earth tone versatility"]
+    "imageUrl": "/catalog/zara-fleece-quarter-zip.png"
   },
   {
-    "id": "zara-05",
+    "id": "zara-wide-leg-fleece-sweatpant",
     "brand": "Zara",
-    "title": "Cropped Textured Bouclé Blazer",
-    "category": "top",
-    "vibe": ["party"],
-    "price": 89.90,
-    "imageUrl": "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=800&q=80",
+    "title": "Wide-Leg Fleece Sweatpant",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 79.9,
+    "color": "Charcoal",
+    "description": "Charcoal wide-leg fleece sweatpant with an elastic drawstring waist.",
     "productUrl": "https://www.zara.com",
-    "color": "Charcoal Herringbone",
-    "description": "Structured cropped jacket with bold silver-embossed buttons, giving runway chic styling at an accessible price point.",
-    "matchHighlights": ["Structured shoulders", "High-contrast buttons", "Party cocktail vibe"]
+    "imageUrl": "/catalog/zara-wide-leg-fleece-sweatpant.png"
   },
   {
-    "id": "zara-06",
+    "id": "hm-wide-leg-fleece-sweatpant",
+    "brand": "H&M",
+    "title": "Wide-Leg Fleece Sweatpant",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Black",
+    "description": "Black wide-leg fleece sweatpant with an elastic drawstring waist.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-wide-leg-fleece-sweatpant.png"
+  },
+  {
+    "id": "hm-relaxed-straight-jogger",
+    "brand": "H&M",
+    "title": "Relaxed Straight Jogger",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Stone",
+    "description": "Stone relaxed straight-leg jogger with tapered ribbed cuffs.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-relaxed-straight-jogger.png"
+  },
+  {
+    "id": "uniqlo-relaxed-straight-jogger",
+    "brand": "Uniqlo",
+    "title": "Relaxed Straight Jogger",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 49.9,
+    "color": "Navy",
+    "description": "Navy relaxed straight-leg jogger with tapered ribbed cuffs.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-relaxed-straight-jogger.png"
+  },
+  {
+    "id": "uniqlo-cargo-jogger",
+    "brand": "Uniqlo",
+    "title": "Cargo Jogger",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 59.9,
+    "color": "Olive",
+    "description": "Olive cargo jogger with utility pockets and elastic cuffs.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-cargo-jogger.png"
+  },
+  {
+    "id": "ck-cargo-jogger",
+    "brand": "Calvin Klein",
+    "title": "Cargo Jogger",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "male",
+    "price": 150,
+    "color": "Khaki",
+    "description": "Khaki cargo jogger with utility pockets and elastic cuffs.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-cargo-jogger.png"
+  },
+  {
+    "id": "ck-relaxed-jogger-sweatpant",
+    "brand": "Calvin Klein",
+    "title": "Relaxed Jogger Sweatpant",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 110,
+    "color": "Stone Beige",
+    "description": "Stone Beige relaxed jogger sweatpant with elastic cuffs and drawstring waist.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-relaxed-jogger-sweatpant.png"
+  },
+  {
+    "id": "zara-relaxed-jogger-sweatpant",
     "brand": "Zara",
-    "title": "Crochet Knit Resort Polo",
-    "category": "top",
-    "vibe": ["beach", "comfy"],
-    "price": 49.90,
-    "imageUrl": "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=800&q=80",
+    "title": "Relaxed Jogger Sweatpant",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 59.9,
+    "color": "Black",
+    "description": "Black relaxed jogger sweatpant with elastic cuffs and drawstring waist.",
     "productUrl": "https://www.zara.com",
-    "color": "Ecru / Navy Accent",
-    "description": "Vintage Riviera-inspired open-stitch polo that breathes easily and elevates simple shorts or linen trousers.",
-    "matchHighlights": ["Open crochet stitch", "Riviera vintage look", "Effortless casual"]
+    "imageUrl": "/catalog/zara-relaxed-jogger-sweatpant.png"
   },
   {
-    "id": "ck-01",
-    "brand": "Calvin Klein",
-    "title": "Minimalist Supima Cotton Mercerized Tee",
-    "category": "top",
-    "vibe": ["comfy"],
-    "price": 65.00,
-    "imageUrl": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=800&q=80",
-    "productUrl": "https://www.calvinklein.us",
-    "color": "Crisp Optical White",
-    "description": "Pure premium long-staple Supima cotton treated with mercerization for a subtle satin sheen and cloud-like drape.",
-    "matchHighlights": ["Clean 90s minimalism", "Silky hand feel", "Wardrobe cornerstone"]
-  },
-  {
-    "id": "ck-02",
-    "brand": "Calvin Klein",
-    "title": "Modern Straight Fit Selvedge Denim",
+    "id": "zara-wide-leg-lounge-pant",
+    "brand": "Zara",
+    "title": "Wide-Leg Lounge Pant",
     "category": "trouser",
-    "vibe": ["comfy", "party"],
-    "price": 118.00,
-    "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=800&q=80",
-    "productUrl": "https://www.calvinklein.us",
-    "color": "Raw Vintage Indigo",
-    "description": "Authentic denim cut in the iconic 90s straight leg silhouette with subtle stretch for everyday comfort.",
-    "matchHighlights": ["Iconic Calvin Klein cut", "Structured denim", "All-occasion versatility"]
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 49.9,
+    "color": "Cream",
+    "description": "Cream wide-leg lounge pant in soft brushed fabric.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-wide-leg-lounge-pant.png"
   },
   {
-    "id": "ck-03",
-    "brand": "Calvin Klein",
-    "title": "Resort Linen-Lyocell Camp Shirt",
-    "category": "top",
-    "vibe": ["beach", "party"],
-    "price": 98.00,
-    "imageUrl": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=800&q=80",
-    "productUrl": "https://www.calvinklein.us",
-    "color": "Muted Sage Green",
-    "description": "Silky linen and lyocell blend that resists heavy creasing while offering maximum flow under sunshine and ocean breezes.",
-    "matchHighlights": ["Cool-to-touch blend", "Subtle pastel tone", "Unbuttoned beach aesthetic"]
-  },
-  {
-    "id": "ck-04",
-    "brand": "Calvin Klein",
-    "title": "Slim-Fit Tailored Wool Blend Trousers",
+    "id": "hm-wide-leg-lounge-pant",
+    "brand": "H&M",
+    "title": "Wide-Leg Lounge Pant",
     "category": "trouser",
-    "vibe": ["party"],
-    "price": 148.00,
-    "imageUrl": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=800&q=80",
-    "productUrl": "https://www.calvinklein.us",
-    "color": "Slate Black",
-    "description": "Sharply tailored trousers with subtle elastane give, engineered for evening parties and gallery openings.",
-    "matchHighlights": ["Tailored knife crease", "Slim silhouette", "Modern party elegance"]
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 49.9,
+    "color": "Grey",
+    "description": "Grey wide-leg lounge pant in soft brushed fabric.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-wide-leg-lounge-pant.png"
   },
   {
-    "id": "ck-05",
+    "id": "hm-high-waist-ribbed-legging",
+    "brand": "H&M",
+    "title": "High-Waist Ribbed Legging",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 29.9,
+    "color": "Black",
+    "description": "Black high-waist ribbed legging with a body-skimming fit.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-high-waist-ribbed-legging.png"
+  },
+  {
+    "id": "uniqlo-high-waist-ribbed-legging",
+    "brand": "Uniqlo",
+    "title": "High-Waist Ribbed Legging",
+    "category": "trouser",
+    "vibe": [
+      "comfy"
+    ],
+    "gender": "female",
+    "price": 29.9,
+    "color": "Charcoal",
+    "description": "Charcoal high-waist ribbed legging with a body-skimming fit.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-high-waist-ribbed-legging.png"
+  },
+  {
+    "id": "zara-linen-camp-collar-shirt",
+    "brand": "Zara",
+    "title": "Linen Camp-Collar Shirt",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 89.9,
+    "color": "Sand",
+    "description": "Sand short-sleeve linen camp-collar shirt with a relaxed fit.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-linen-camp-collar-shirt.png"
+  },
+  {
+    "id": "hm-linen-camp-collar-shirt",
+    "brand": "H&M",
+    "title": "Linen Camp-Collar Shirt",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 29.9,
+    "color": "White",
+    "description": "White short-sleeve linen camp-collar shirt with a relaxed fit.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-linen-camp-collar-shirt.png"
+  },
+  {
+    "id": "hm-short-sleeve-print-resort-shirt",
+    "brand": "H&M",
+    "title": "Short-Sleeve Print Resort Shirt",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 69.9,
+    "color": "Tropical Print",
+    "description": "Tropical Print short-sleeve resort shirt in a breezy printed weave.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-short-sleeve-print-resort-shirt.png"
+  },
+  {
+    "id": "uniqlo-short-sleeve-print-resort-shirt",
+    "brand": "Uniqlo",
+    "title": "Short-Sleeve Print Resort Shirt",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Navy Stripe",
+    "description": "Navy Stripe short-sleeve resort shirt in a breezy printed weave.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-short-sleeve-print-resort-shirt.png"
+  },
+  {
+    "id": "uniqlo-terry-cloth-polo",
+    "brand": "Uniqlo",
+    "title": "Terry Cloth Polo",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 49.9,
+    "color": "White",
+    "description": "White terry cloth polo with ribbed collar, breathable and absorbent.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-terry-cloth-polo.png"
+  },
+  {
+    "id": "ck-terry-cloth-polo",
     "brand": "Calvin Klein",
-    "title": "Matte Satin Minimalist Slip Cami",
+    "title": "Terry Cloth Polo",
     "category": "top",
-    "vibe": ["party"],
-    "price": 79.50,
-    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 150,
+    "color": "Ocean Blue",
+    "description": "Ocean Blue terry cloth polo with ribbed collar, breathable and absorbent.",
     "productUrl": "https://www.calvinklein.us",
-    "color": "Champagne Gold",
-    "description": "The quintessential Calvin Klein minimalism. Features delicate spaghetti straps and a bias-cut body skimming silhouette.",
-    "matchHighlights": ["Bias cut drape", "Sensual minimalism", "Layer with blazers or standalone"]
+    "imageUrl": "/catalog/ck-terry-cloth-polo.png"
   },
   {
-    "id": "ck-06",
+    "id": "ck-sleeveless-linen-tank",
     "brand": "Calvin Klein",
-    "title": "French Terry Luxe Lounge Pants",
-    "category": "trouser",
-    "vibe": ["comfy"],
-    "price": 88.00,
-    "imageUrl": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea?auto=format&fit=crop&w=800&q=80",
+    "title": "Sleeveless Linen Tank",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 150,
+    "color": "Ivory",
+    "description": "Ivory sleeveless linen tank with a relaxed drape.",
     "productUrl": "https://www.calvinklein.us",
-    "color": "Heather Gray",
-    "description": "Plush loopback organic cotton terry with a tapered leg and minimalist tonal monogram embossing.",
-    "matchHighlights": ["Maximum lounging softness", "Elevated streetwear cut", "Premium organic loopback"]
+    "imageUrl": "/catalog/ck-sleeveless-linen-tank.png"
   },
   {
-    "id": "boss-01",
+    "id": "boss-sleeveless-linen-tank",
     "brand": "Boss",
-    "title": "Silk-Cashmere Fine Gauge Crewneck",
+    "title": "Sleeveless Linen Tank",
     "category": "top",
-    "vibe": ["comfy", "party"],
-    "price": 328.00,
-    "imageUrl": "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=800&q=80",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 220,
+    "color": "Coral",
+    "description": "Coral sleeveless linen tank with a relaxed drape.",
     "productUrl": "https://www.hugoboss.com",
-    "color": "Camel Melange",
-    "description": "Spun from 70% Mulberry silk and 30% Mongolian cashmere. Ultra-light, insulating, and exudes discreet Old Money luxury.",
-    "matchHighlights": ["Ultra-soft cashmere blend", "Stealth wealth aesthetic", "Year-round temperature regulating"]
+    "imageUrl": "/catalog/boss-sleeveless-linen-tank.png"
   },
   {
-    "id": "boss-02",
+    "id": "boss-crochet-cover-up-top",
     "brand": "Boss",
-    "title": "Italian Linen-Cotton Resort Shirt",
+    "title": "Crochet Cover-Up Top",
     "category": "top",
-    "vibe": ["beach", "party"],
-    "price": 198.00,
-    "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 130,
+    "color": "White",
+    "description": "White open-stitch crochet cover-up top with a relaxed fit.",
     "productUrl": "https://www.hugoboss.com",
-    "color": "Nautical Navy / Chalk Stripe",
-    "description": "Tailored in Italy with a refined bowling collar and mother-of-pearl buttons. Crafted for Monaco yacht clubs and sunset dinners.",
-    "matchHighlights": ["Mother-of-pearl hardware", "Italian milled fabric", "Bespoke tailoring finish"]
+    "imageUrl": "/catalog/boss-crochet-cover-up-top.png"
   },
   {
-    "id": "boss-03",
-    "brand": "Boss",
-    "title": "Virgin Wool Tailored Evening Trouser",
+    "id": "zara-crochet-cover-up-top",
+    "brand": "Zara",
+    "title": "Crochet Cover-Up Top",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 79.9,
+    "color": "Natural",
+    "description": "Natural open-stitch crochet cover-up top with a relaxed fit.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-crochet-cover-up-top.png"
+  },
+  {
+    "id": "zara-off-shoulder-breezy-blouse",
+    "brand": "Zara",
+    "title": "Off-Shoulder Breezy Blouse",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 69.9,
+    "color": "Yellow",
+    "description": "Yellow off-shoulder blouse in a lightweight, breezy fabric.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-off-shoulder-breezy-blouse.png"
+  },
+  {
+    "id": "hm-off-shoulder-breezy-blouse",
+    "brand": "H&M",
+    "title": "Off-Shoulder Breezy Blouse",
+    "category": "top",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 49.9,
+    "color": "White",
+    "description": "White off-shoulder blouse in a lightweight, breezy fabric.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-off-shoulder-breezy-blouse.png"
+  },
+  {
+    "id": "hm-drawstring-beach-short",
+    "brand": "H&M",
+    "title": "Drawstring Beach Short",
     "category": "trouser",
-    "vibe": ["party"],
-    "price": 278.00,
-    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
-    "productUrl": "https://www.hugoboss.com",
-    "color": "Midnight Tuxedo Navy",
-    "description": "Precision-cut Hugo Boss evening trousers with satin side piping and hook-and-bar closure for gala and VIP night-out presence.",
-    "matchHighlights": ["Super 120s virgin wool", "Satin side stripe detail", "Red carpet statement"]
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Ocean Blue",
+    "description": "Ocean Blue quick-dry drawstring beach short with mesh lining.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-drawstring-beach-short.png"
   },
   {
-    "id": "boss-04",
-    "brand": "Boss",
-    "title": "Water-Repellent Stretch Linen Beach Trousers",
+    "id": "uniqlo-drawstring-beach-short",
+    "brand": "Uniqlo",
+    "title": "Drawstring Beach Short",
     "category": "trouser",
-    "vibe": ["beach", "comfy"],
-    "price": 248.00,
-    "imageUrl": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=800&q=80",
-    "productUrl": "https://www.hugoboss.com",
-    "color": "Pure White Sand",
-    "description": "Innovative stretch-infused linen featuring a water-resistant nanocoating that protects against sea spray and cocktail spills.",
-    "matchHighlights": ["Hydrophobic linen finish", "Relaxed luxury fit", "Resort club staple"]
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Coral",
+    "description": "Coral quick-dry drawstring beach short with mesh lining.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-drawstring-beach-short.png"
   },
   {
-    "id": "boss-05",
-    "brand": "Boss",
-    "title": "Double-Breasted Tropical Wool Relaxed Blazer",
-    "category": "top",
-    "vibe": ["party"],
-    "price": 595.00,
-    "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
-    "productUrl": "https://www.hugoboss.com",
-    "color": "Smoked Tobacco",
-    "description": "Unstructured double-breasted jacket made from tropical wool that stays cool in sultry summer evenings while turning every head.",
-    "matchHighlights": ["Unlined ease", "Peak lapel authority", "Effortless high-power styling"]
+    "id": "uniqlo-tailored-swim-to-street-short",
+    "brand": "Uniqlo",
+    "title": "Tailored Swim-to-Street Short",
+    "category": "trouser",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Navy",
+    "description": "Navy tailored swim-to-street short in quick-dry fabric.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-tailored-swim-to-street-short.png"
   },
   {
-    "id": "boss-06",
+    "id": "ck-tailored-swim-to-street-short",
+    "brand": "Calvin Klein",
+    "title": "Tailored Swim-to-Street Short",
+    "category": "trouser",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "male",
+    "price": 60,
+    "color": "Stone",
+    "description": "Stone tailored swim-to-street short in quick-dry fabric.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-tailored-swim-to-street-short.png"
+  },
+  {
+    "id": "ck-wide-leg-linen-trouser",
+    "brand": "Calvin Klein",
+    "title": "Wide-Leg Linen Trouser",
+    "category": "trouser",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 120,
+    "color": "Sun Bleached Yellow",
+    "description": "Sun Bleached Yellow wide-leg linen trouser with an elastic waist.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-wide-leg-linen-trouser.png"
+  },
+  {
+    "id": "boss-wide-leg-linen-trouser",
     "brand": "Boss",
-    "title": "Mercerized Jacquard Knitted Polo",
-    "category": "top",
-    "vibe": ["beach", "party", "comfy"],
-    "price": 188.00,
-    "imageUrl": "https://images.unsplash.com/photo-1626497764746-6dc36546b388?auto=format&fit=crop&w=800&q=80",
+    "title": "Wide-Leg Linen Trouser",
+    "category": "trouser",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 110,
+    "color": "White",
+    "description": "White wide-leg linen trouser with an elastic waist.",
     "productUrl": "https://www.hugoboss.com",
-    "color": "Dark Cognac",
-    "description": "Geometric micro-jacquard knit with ribbed trim and contrast placket, bridging the gap between beachside cafe and rooftop cocktail lounge.",
-    "matchHighlights": ["Micro-geometric knit", "Lustrous mercerized cotton", "High-society versatility"]
+    "imageUrl": "/catalog/boss-wide-leg-linen-trouser.png"
+  },
+  {
+    "id": "boss-flowy-palazzo-pant",
+    "brand": "Boss",
+    "title": "Flowy Palazzo Pant",
+    "category": "trouser",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 330,
+    "color": "Coral",
+    "description": "Coral flowy palazzo pant with a high waist and wide drape.",
+    "productUrl": "https://www.hugoboss.com",
+    "imageUrl": "/catalog/boss-flowy-palazzo-pant.png"
+  },
+  {
+    "id": "zara-flowy-palazzo-pant",
+    "brand": "Zara",
+    "title": "Flowy Palazzo Pant",
+    "category": "trouser",
+    "vibe": [
+      "beach"
+    ],
+    "gender": "female",
+    "price": 49.9,
+    "color": "Turquoise",
+    "description": "Turquoise flowy palazzo pant with a high waist and wide drape.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-flowy-palazzo-pant.png"
+  },
+  {
+    "id": "zara-silk-button-shirt",
+    "brand": "Zara",
+    "title": "Silk Button Shirt",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 79.9,
+    "color": "Midnight Navy",
+    "description": "Midnight Navy silk button-up shirt with a sheen finish.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-silk-button-shirt.png"
+  },
+  {
+    "id": "hm-silk-button-shirt",
+    "brand": "H&M",
+    "title": "Silk Button Shirt",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 59.9,
+    "color": "Black",
+    "description": "Black silk button-up shirt with a sheen finish.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-silk-button-shirt.png"
+  },
+  {
+    "id": "uniqlo-silk-button-shirt",
+    "brand": "Uniqlo",
+    "title": "Silk Button Shirt",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 49.9,
+    "color": "Emerald",
+    "description": "Emerald silk button-up shirt with a sheen finish.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-silk-button-shirt.png"
+  },
+  {
+    "id": "hm-textured-jacquard-shirt",
+    "brand": "H&M",
+    "title": "Textured Jacquard Shirt",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 49.9,
+    "color": "Burgundy",
+    "description": "Burgundy textured jacquard shirt with a subtle woven pattern.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-textured-jacquard-shirt.png"
+  },
+  {
+    "id": "uniqlo-textured-jacquard-shirt",
+    "brand": "Uniqlo",
+    "title": "Textured Jacquard Shirt",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Black",
+    "description": "Black textured jacquard shirt with a subtle woven pattern.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-textured-jacquard-shirt.png"
+  },
+  {
+    "id": "ck-textured-jacquard-shirt",
+    "brand": "Calvin Klein",
+    "title": "Textured Jacquard Shirt",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 150,
+    "color": "Gold",
+    "description": "Gold textured jacquard shirt with a subtle woven pattern.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-textured-jacquard-shirt.png"
+  },
+  {
+    "id": "uniqlo-fine-knit-turtleneck",
+    "brand": "Uniqlo",
+    "title": "Fine-Knit Turtleneck",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 39.9,
+    "color": "Black",
+    "description": "Black fine-knit turtleneck with a sleek, fitted silhouette.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-fine-knit-turtleneck.png"
+  },
+  {
+    "id": "ck-fine-knit-turtleneck",
+    "brand": "Calvin Klein",
+    "title": "Fine-Knit Turtleneck",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 120,
+    "color": "Charcoal",
+    "description": "Charcoal fine-knit turtleneck with a sleek, fitted silhouette.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-fine-knit-turtleneck.png"
+  },
+  {
+    "id": "boss-fine-knit-turtleneck",
+    "brand": "Boss",
+    "title": "Fine-Knit Turtleneck",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 120,
+    "color": "Bottle Green",
+    "description": "Bottle Green fine-knit turtleneck with a sleek, fitted silhouette.",
+    "productUrl": "https://www.hugoboss.com",
+    "imageUrl": "/catalog/boss-fine-knit-turtleneck.png"
+  },
+  {
+    "id": "ck-sequin-blazer",
+    "brand": "Calvin Klein",
+    "title": "Sequin Blazer",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 60,
+    "color": "Black Sequin",
+    "description": "Black Sequin sequin-embellished blazer with structured shoulders.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-sequin-blazer.png"
+  },
+  {
+    "id": "boss-sequin-blazer",
+    "brand": "Boss",
+    "title": "Sequin Blazer",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 130,
+    "color": "Gold Sequin",
+    "description": "Gold Sequin sequin-embellished blazer with structured shoulders.",
+    "productUrl": "https://www.hugoboss.com",
+    "imageUrl": "/catalog/boss-sequin-blazer.png"
+  },
+  {
+    "id": "gucci-sequin-blazer",
+    "brand": "Gucci",
+    "title": "Sequin Blazer",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 2800,
+    "color": "Silver Sequin",
+    "description": "Silver Sequin sequin-embellished blazer with structured shoulders.",
+    "productUrl": "https://www.gucci.com",
+    "imageUrl": "/catalog/gucci-sequin-blazer.png"
+  },
+  {
+    "id": "boss-sequin-statement-top",
+    "brand": "Boss",
+    "title": "Sequin Statement Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 190,
+    "color": "Gunmetal Sequin",
+    "description": "Gunmetal Sequin sequin-embellished statement top with a fitted silhouette.",
+    "productUrl": "https://www.hugoboss.com",
+    "imageUrl": "/catalog/boss-sequin-statement-top.png"
+  },
+  {
+    "id": "gucci-sequin-statement-top",
+    "brand": "Gucci",
+    "title": "Sequin Statement Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 680,
+    "color": "Black Sequin",
+    "description": "Black Sequin sequin-embellished statement top with a fitted silhouette.",
+    "productUrl": "https://www.gucci.com",
+    "imageUrl": "/catalog/gucci-sequin-statement-top.png"
+  },
+  {
+    "id": "ysl-sequin-statement-top",
+    "brand": "Saint Laurent",
+    "title": "Sequin Statement Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 2220,
+    "color": "Rose Gold Sequin",
+    "description": "Rose Gold Sequin sequin-embellished statement top with a fitted silhouette.",
+    "productUrl": "https://www.ysl.com",
+    "imageUrl": "/catalog/ysl-sequin-statement-top.png"
+  },
+  {
+    "id": "gucci-satin-cami-top",
+    "brand": "Gucci",
+    "title": "Satin Cami Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 500,
+    "color": "Champagne",
+    "description": "Champagne satin cami top with adjustable straps and a bias-cut drape.",
+    "productUrl": "https://www.gucci.com",
+    "imageUrl": "/catalog/gucci-satin-cami-top.png"
+  },
+  {
+    "id": "ysl-satin-cami-top",
+    "brand": "Saint Laurent",
+    "title": "Satin Cami Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 580,
+    "color": "Black",
+    "description": "Black satin cami top with adjustable straps and a bias-cut drape.",
+    "productUrl": "https://www.ysl.com",
+    "imageUrl": "/catalog/ysl-satin-cami-top.png"
+  },
+  {
+    "id": "lv-satin-cami-top",
+    "brand": "Louis Vuitton",
+    "title": "Satin Cami Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 3190,
+    "color": "Emerald",
+    "description": "Emerald satin cami top with adjustable straps and a bias-cut drape.",
+    "productUrl": "https://www.louisvuitton.com",
+    "imageUrl": "/catalog/lv-satin-cami-top.png"
+  },
+  {
+    "id": "ysl-sheer-mesh-panel-top",
+    "brand": "Saint Laurent",
+    "title": "Sheer Mesh Panel Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 2340,
+    "color": "Black",
+    "description": "Black sheer mesh panel top with strategic paneling.",
+    "productUrl": "https://www.ysl.com",
+    "imageUrl": "/catalog/ysl-sheer-mesh-panel-top.png"
+  },
+  {
+    "id": "lv-sheer-mesh-panel-top",
+    "brand": "Louis Vuitton",
+    "title": "Sheer Mesh Panel Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 700,
+    "color": "Nude",
+    "description": "Nude sheer mesh panel top with strategic paneling.",
+    "productUrl": "https://www.louisvuitton.com",
+    "imageUrl": "/catalog/lv-sheer-mesh-panel-top.png"
+  },
+  {
+    "id": "zara-sheer-mesh-panel-top",
+    "brand": "Zara",
+    "title": "Sheer Mesh Panel Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 39.9,
+    "color": "Silver",
+    "description": "Silver sheer mesh panel top with strategic paneling.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-sheer-mesh-panel-top.png"
+  },
+  {
+    "id": "lv-metallic-wrap-top",
+    "brand": "Louis Vuitton",
+    "title": "Metallic Wrap Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 1930,
+    "color": "Gold",
+    "description": "Gold metallic wrap top with a draped, fitted silhouette.",
+    "productUrl": "https://www.louisvuitton.com",
+    "imageUrl": "/catalog/lv-metallic-wrap-top.png"
+  },
+  {
+    "id": "zara-metallic-wrap-top",
+    "brand": "Zara",
+    "title": "Metallic Wrap Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 59.9,
+    "color": "Silver",
+    "description": "Silver metallic wrap top with a draped, fitted silhouette.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-metallic-wrap-top.png"
+  },
+  {
+    "id": "hm-metallic-wrap-top",
+    "brand": "H&M",
+    "title": "Metallic Wrap Top",
+    "category": "top",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 39.9,
+    "color": "Bronze",
+    "description": "Bronze metallic wrap top with a draped, fitted silhouette.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-metallic-wrap-top.png"
+  },
+  {
+    "id": "zara-tailored-dress-trouser",
+    "brand": "Zara",
+    "title": "Tailored Dress Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 49.9,
+    "color": "Black",
+    "description": "Black tailored dress trouser with a sharp straight-leg cut.",
+    "productUrl": "https://www.zara.com",
+    "imageUrl": "/catalog/zara-tailored-dress-trouser.png"
+  },
+  {
+    "id": "hm-tailored-dress-trouser",
+    "brand": "H&M",
+    "title": "Tailored Dress Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 29.9,
+    "color": "Charcoal",
+    "description": "Charcoal tailored dress trouser with a sharp straight-leg cut.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-tailored-dress-trouser.png"
+  },
+  {
+    "id": "uniqlo-tailored-dress-trouser",
+    "brand": "Uniqlo",
+    "title": "Tailored Dress Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Navy",
+    "description": "Navy tailored dress trouser with a sharp straight-leg cut.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-tailored-dress-trouser.png"
+  },
+  {
+    "id": "hm-slim-velvet-trouser",
+    "brand": "H&M",
+    "title": "Slim Velvet Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Burgundy",
+    "description": "Burgundy slim velvet trouser with a rich, luxe texture.",
+    "productUrl": "https://www2.hm.com",
+    "imageUrl": "/catalog/hm-slim-velvet-trouser.png"
+  },
+  {
+    "id": "uniqlo-slim-velvet-trouser",
+    "brand": "Uniqlo",
+    "title": "Slim Velvet Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 19.9,
+    "color": "Black",
+    "description": "Black slim velvet trouser with a rich, luxe texture.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-slim-velvet-trouser.png"
+  },
+  {
+    "id": "ck-slim-velvet-trouser",
+    "brand": "Calvin Klein",
+    "title": "Slim Velvet Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 80,
+    "color": "Emerald",
+    "description": "Emerald slim velvet trouser with a rich, luxe texture.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-slim-velvet-trouser.png"
+  },
+  {
+    "id": "uniqlo-satin-stripe-tux-trouser",
+    "brand": "Uniqlo",
+    "title": "Satin-Stripe Tux Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 29.9,
+    "color": "Black",
+    "description": "Black tuxedo trouser with a satin side stripe.",
+    "productUrl": "https://www.uniqlo.com",
+    "imageUrl": "/catalog/uniqlo-satin-stripe-tux-trouser.png"
+  },
+  {
+    "id": "ck-satin-stripe-tux-trouser",
+    "brand": "Calvin Klein",
+    "title": "Satin-Stripe Tux Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 150,
+    "color": "Black",
+    "description": "Black tuxedo trouser with a satin side stripe.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-satin-stripe-tux-trouser.png"
+  },
+  {
+    "id": "boss-satin-stripe-tux-trouser",
+    "brand": "Boss",
+    "title": "Satin-Stripe Tux Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "male",
+    "price": 260,
+    "color": "Black",
+    "description": "Black tuxedo trouser with a satin side stripe.",
+    "productUrl": "https://www.hugoboss.com",
+    "imageUrl": "/catalog/boss-satin-stripe-tux-trouser.png"
+  },
+  {
+    "id": "ck-slim-dress-pant",
+    "brand": "Calvin Klein",
+    "title": "Slim Dress Pant",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 140,
+    "color": "Black",
+    "description": "Black slim dress pant with a tailored, knife-crease finish.",
+    "productUrl": "https://www.calvinklein.us",
+    "imageUrl": "/catalog/ck-slim-dress-pant.png"
+  },
+  {
+    "id": "boss-slim-dress-pant",
+    "brand": "Boss",
+    "title": "Slim Dress Pant",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 130,
+    "color": "Charcoal",
+    "description": "Charcoal slim dress pant with a tailored, knife-crease finish.",
+    "productUrl": "https://www.hugoboss.com",
+    "imageUrl": "/catalog/boss-slim-dress-pant.png"
+  },
+  {
+    "id": "gucci-slim-dress-pant",
+    "brand": "Gucci",
+    "title": "Slim Dress Pant",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 2070,
+    "color": "Ivory",
+    "description": "Ivory slim dress pant with a tailored, knife-crease finish.",
+    "productUrl": "https://www.gucci.com",
+    "imageUrl": "/catalog/gucci-slim-dress-pant.png"
+  },
+  {
+    "id": "boss-satin-wide-leg-trouser",
+    "brand": "Boss",
+    "title": "Satin Wide-Leg Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 120,
+    "color": "Champagne",
+    "description": "Champagne satin wide-leg trouser with a fluid drape.",
+    "productUrl": "https://www.hugoboss.com",
+    "imageUrl": "/catalog/boss-satin-wide-leg-trouser.png"
+  },
+  {
+    "id": "gucci-satin-wide-leg-trouser",
+    "brand": "Gucci",
+    "title": "Satin Wide-Leg Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 1430,
+    "color": "Black",
+    "description": "Black satin wide-leg trouser with a fluid drape.",
+    "productUrl": "https://www.gucci.com",
+    "imageUrl": "/catalog/gucci-satin-wide-leg-trouser.png"
+  },
+  {
+    "id": "ysl-satin-wide-leg-trouser",
+    "brand": "Saint Laurent",
+    "title": "Satin Wide-Leg Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 970,
+    "color": "Emerald",
+    "description": "Emerald satin wide-leg trouser with a fluid drape.",
+    "productUrl": "https://www.ysl.com",
+    "imageUrl": "/catalog/ysl-satin-wide-leg-trouser.png"
+  },
+  {
+    "id": "gucci-sequin-flare-trouser",
+    "brand": "Gucci",
+    "title": "Sequin Flare Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 2340,
+    "color": "Black Sequin",
+    "description": "Black Sequin sequin-embellished flare trouser with a subtle flare.",
+    "productUrl": "https://www.gucci.com",
+    "imageUrl": "/catalog/gucci-sequin-flare-trouser.png"
+  },
+  {
+    "id": "ysl-sequin-flare-trouser",
+    "brand": "Saint Laurent",
+    "title": "Sequin Flare Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 2230,
+    "color": "Gold Sequin",
+    "description": "Gold Sequin sequin-embellished flare trouser with a subtle flare.",
+    "productUrl": "https://www.ysl.com",
+    "imageUrl": "/catalog/ysl-sequin-flare-trouser.png"
+  },
+  {
+    "id": "lv-sequin-flare-trouser",
+    "brand": "Louis Vuitton",
+    "title": "Sequin Flare Trouser",
+    "category": "trouser",
+    "vibe": [
+      "party"
+    ],
+    "gender": "female",
+    "price": 2320,
+    "color": "Black Sequin",
+    "description": "Black Sequin sequin-embellished flare trouser with a subtle flare.",
+    "productUrl": "https://www.louisvuitton.com",
+    "imageUrl": "/catalog/lv-sequin-flare-trouser.png"
   }
 ]
