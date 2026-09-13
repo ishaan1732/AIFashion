@@ -1,9 +1,17 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { Playfair_Display } from "next/font/google";
 import { searchCatalog, fullCatalog, SearchFilters } from "@/lib/catalog";
 import { CatalogItem } from "@/types/fashion";
 import { Sparkles, Upload, Camera, ExternalLink, RefreshCw, Check, ArrowRight, Loader2 } from "lucide-react";
+
+const editorialFont = Playfair_Display({ subsets: ["latin"], weight: ["700"] });
+
+// Active-state class applied to the currently-selected quiz option buttons.
+const activeQuizButtonClass =
+  "bg-black text-white border-black shadow-sm ring-2 ring-amber-400 ring-offset-2 ring-offset-white";
+const inactiveQuizButtonClass = "bg-zinc-50 text-zinc-700 border-zinc-200 hover:bg-zinc-100";
 
 export default function SimpleFashionApp() {
   // 1. Question selections (buttons)
@@ -242,20 +250,21 @@ export default function SimpleFashionApp() {
           <div className="flex items-center space-x-2">
             <span className="text-xl font-bold tracking-tight text-black">AIFashion</span>
             <span className="text-xs bg-zinc-100 text-zinc-700 px-2 py-0.5 rounded font-medium border border-zinc-200">
-              Zara • Calvin Klein • Boss
+              8 Curated Fashion Houses
             </span>
           </div>
           <div className="text-xs text-zinc-500 font-medium">
             AI Stylist & Virtual Try-On
           </div>
         </div>
+        <div className="h-px w-full bg-gradient-to-r from-amber-400 via-amber-400/30 to-transparent" />
       </header>
 
-      <main className="max-w-5xl mx-auto px-4 pt-8 space-y-10">
+      <main className="max-w-5xl mx-auto px-4 pt-8 space-y-12">
         {/* Step 1: Simple Questions (Buttons) */}
-        <section className="bg-white p-6 sm:p-8 rounded-2xl border border-zinc-200 shadow-sm space-y-6">
+        <section className="bg-white p-7 sm:p-9 rounded-2xl border border-zinc-200 shadow-sm space-y-6">
           <div>
-            <h1 className="text-2xl sm:text-3xl font-bold text-zinc-900">
+            <h1 className={`${editorialFont.className} text-2xl sm:text-3xl font-bold text-zinc-900`}>
               Find Your Style & Try It On
             </h1>
             <p className="text-sm text-zinc-500 mt-1">
@@ -279,8 +288,8 @@ export default function SimpleFashionApp() {
                   onClick={() => setGender(option.id as any)}
                   className={`py-3 px-4 rounded-xl text-sm font-semibold border transition-all ${
                     gender === option.id
-                      ? "bg-black text-white border-black shadow-sm"
-                      : "bg-zinc-50 text-zinc-700 border-zinc-200 hover:bg-zinc-100"
+                      ? activeQuizButtonClass
+                      : inactiveQuizButtonClass
                   }`}
                 >
                   {option.label}
@@ -307,8 +316,8 @@ export default function SimpleFashionApp() {
                   onClick={() => setBudgetTier(tier.id as any)}
                   className={`py-3 px-4 rounded-xl text-sm font-semibold border transition-all ${
                     budgetTier === tier.id
-                      ? "bg-black text-white border-black shadow-sm"
-                      : "bg-zinc-50 text-zinc-700 border-zinc-200 hover:bg-zinc-100"
+                      ? activeQuizButtonClass
+                      : inactiveQuizButtonClass
                   }`}
                 >
                   {tier.label}
@@ -334,8 +343,8 @@ export default function SimpleFashionApp() {
                   onClick={() => setVibe(style.id as any)}
                   className={`py-3.5 px-4 rounded-xl text-sm font-semibold border transition-all flex flex-col items-center justify-center space-y-1 ${
                     vibe === style.id
-                      ? "bg-black text-white border-black shadow-sm"
-                      : "bg-zinc-50 text-zinc-700 border-zinc-200 hover:bg-zinc-100"
+                      ? activeQuizButtonClass
+                      : inactiveQuizButtonClass
                   }`}
                 >
                   <span className="text-xl">{style.icon}</span>
@@ -361,8 +370,8 @@ export default function SimpleFashionApp() {
                   onClick={() => setCategory(cat.id as any)}
                   className={`py-3.5 px-4 rounded-xl text-sm font-semibold border transition-all flex items-center justify-center space-x-2 ${
                     category === cat.id
-                      ? "bg-black text-white border-black shadow-sm"
-                      : "bg-zinc-50 text-zinc-700 border-zinc-200 hover:bg-zinc-100"
+                      ? activeQuizButtonClass
+                      : inactiveQuizButtonClass
                   }`}
                 >
                   <span className="text-xl">{cat.icon}</span>
@@ -380,7 +389,7 @@ export default function SimpleFashionApp() {
               className="w-full py-4 rounded-xl bg-black text-white font-bold text-base hover:bg-zinc-800 transition-colors shadow-sm flex items-center justify-center space-x-2"
             >
               <span>Search Outfits</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-5 h-5 text-amber-400" />
             </button>
           </div>
         </section>
@@ -390,7 +399,7 @@ export default function SimpleFashionApp() {
           <section id="results-section" className="space-y-6 scroll-mt-20">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-zinc-200 pb-3">
               <div>
-                <h2 className="text-xl font-bold text-zinc-900">
+                <h2 className={`${editorialFont.className} text-xl font-bold text-zinc-900`}>
                   Recommended Matches ({results.length} Options)
                 </h2>
                 <p className="text-xs text-zinc-500">
@@ -407,7 +416,7 @@ export default function SimpleFashionApp() {
               {results.map((item) => (
                 <div
                   key={item.id}
-                  className="bg-white rounded-xl border border-zinc-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
+                  className="bg-white rounded-xl border border-zinc-200 overflow-hidden shadow-sm hover:shadow-md transition-shadow hover:-translate-y-0.5 transition-transform flex flex-col justify-between"
                 >
                   <div className="relative aspect-[4/5] bg-zinc-100 overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -467,7 +476,7 @@ export default function SimpleFashionApp() {
             >
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
-                  <h3 className="text-base font-bold text-zinc-900 flex items-center space-x-2">
+                  <h3 className={`${editorialFont.className} text-base font-bold text-zinc-900 flex items-center space-x-2`}>
                     <Camera className="w-5 h-5 text-zinc-800" />
                     <span>Upload Your Photo to Try On</span>
                   </h3>
@@ -581,14 +590,14 @@ export default function SimpleFashionApp() {
         {virtualResult && (
           <section
             id="tryon-result-section"
-            className="bg-white p-6 sm:p-8 rounded-2xl border-2 border-black shadow-md space-y-6 scroll-mt-20"
+            className="bg-white p-7 sm:p-9 rounded-2xl border-2 border-black shadow-md space-y-6 scroll-mt-20"
           >
             <div className="flex items-center justify-between border-b border-zinc-200 pb-3">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-emerald-600">
                   AI Virtual Try-On Result
                 </span>
-                <h3 className="text-xl font-bold text-zinc-900">
+                <h3 className={`${editorialFont.className} text-xl font-bold text-zinc-900`}>
                   {virtualResult.item.brand} • {virtualResult.item.title}
                 </h3>
               </div>

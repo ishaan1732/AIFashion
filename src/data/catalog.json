@@ -8,7 +8,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 69.9,
+    "price": 189.9,
     "color": "Heather Grey",
     "description": "Heather Grey oversized cotton hoodie with kangaroo pocket and ribbed cuffs.",
     "productUrl": "https://www.zara.com",
@@ -23,7 +23,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 49.9,
+    "price": 259.9,
     "color": "Washed Black",
     "description": "Washed Black oversized cotton hoodie with kangaroo pocket and ribbed cuffs.",
     "productUrl": "https://www2.hm.com",
@@ -38,7 +38,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 69.9,
+    "price": 179.9,
     "color": "Black",
     "description": "Black boxy crewneck sweatshirt in heavyweight cotton fleece.",
     "productUrl": "https://www2.hm.com",
@@ -53,7 +53,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 49.9,
+    "price": 29.9,
     "color": "Stone",
     "description": "Stone boxy crewneck sweatshirt in heavyweight cotton fleece.",
     "productUrl": "https://www.uniqlo.com",
@@ -68,7 +68,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 29.9,
+    "price": 79.9,
     "color": "Charcoal",
     "description": "Charcoal waffle-knit henley with button placket and long sleeves.",
     "productUrl": "https://www.uniqlo.com",
@@ -83,7 +83,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 100,
+    "price": 50,
     "color": "Cream",
     "description": "Cream waffle-knit henley with button placket and long sleeves.",
     "productUrl": "https://www.calvinklein.us",
@@ -98,7 +98,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 140,
+    "price": 105,
     "color": "Navy",
     "description": "Navy zip-up fleece jacket with stand collar and side pockets.",
     "productUrl": "https://www.calvinklein.us",
@@ -113,7 +113,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 39.9,
+    "price": 289.9,
     "color": "Grey",
     "description": "Grey zip-up fleece jacket with stand collar and side pockets.",
     "productUrl": "https://www.zara.com",
@@ -128,7 +128,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 49.9,
+    "price": 179.9,
     "color": "Cream",
     "description": "Cream cropped knit sweater with ribbed hem and relaxed fit.",
     "productUrl": "https://www.zara.com",
@@ -143,7 +143,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 19.9,
+    "price": 159.9,
     "color": "Blush Pink",
     "description": "Blush Pink cropped knit sweater with ribbed hem and relaxed fit.",
     "productUrl": "https://www2.hm.com",
@@ -158,7 +158,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 59.9,
+    "price": 269.9,
     "color": "Camel",
     "description": "Camel oversized boyfriend cardigan with dropped shoulders and patch pockets.",
     "productUrl": "https://www2.hm.com",
@@ -173,7 +173,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 19.9,
+    "price": 29.9,
     "color": "Grey",
     "description": "Grey oversized boyfriend cardigan with dropped shoulders and patch pockets.",
     "productUrl": "https://www.uniqlo.com",
@@ -188,7 +188,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 39.9,
+    "price": 89.9,
     "color": "Black",
     "description": "Black ribbed long-sleeve top with a fitted, stretchy silhouette.",
     "productUrl": "https://www.uniqlo.com",
@@ -203,7 +203,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 70,
+    "price": 115,
     "color": "Lilac",
     "description": "Lilac ribbed long-sleeve top with a fitted, stretchy silhouette.",
     "productUrl": "https://www.calvinklein.us",
@@ -218,7 +218,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 130,
+    "price": 40,
     "color": "Taupe",
     "description": "Taupe fleece quarter-zip pullover with a stand collar.",
     "productUrl": "https://www.calvinklein.us",
@@ -233,7 +233,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 69.9,
+    "price": 269.9,
     "color": "Navy",
     "description": "Navy fleece quarter-zip pullover with a stand collar.",
     "productUrl": "https://www.zara.com",
@@ -248,7 +248,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 79.9,
+    "price": 99.9,
     "color": "Charcoal",
     "description": "Charcoal wide-leg fleece sweatpant with an elastic drawstring waist.",
     "productUrl": "https://www.zara.com",
@@ -263,7 +263,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 159.9,
     "color": "Black",
     "description": "Black wide-leg fleece sweatpant with an elastic drawstring waist.",
     "productUrl": "https://www2.hm.com",
@@ -278,7 +278,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 99.9,
     "color": "Stone",
     "description": "Stone relaxed straight-leg jogger with tapered ribbed cuffs.",
     "productUrl": "https://www2.hm.com",
@@ -293,7 +293,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 49.9,
+    "price": 29.9,
     "color": "Navy",
     "description": "Navy relaxed straight-leg jogger with tapered ribbed cuffs.",
     "productUrl": "https://www.uniqlo.com",
@@ -308,7 +308,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 59.9,
+    "price": 309.9,
     "color": "Olive",
     "description": "Olive cargo jogger with utility pockets and elastic cuffs.",
     "productUrl": "https://www.uniqlo.com",
@@ -323,7 +323,7 @@
       "comfy"
     ],
     "gender": "male",
-    "price": 150,
+    "price": 45,
     "color": "Khaki",
     "description": "Khaki cargo jogger with utility pockets and elastic cuffs.",
     "productUrl": "https://www.calvinklein.us",
@@ -338,7 +338,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 110,
+    "price": 50,
     "color": "Stone Beige",
     "description": "Stone Beige relaxed jogger sweatpant with elastic cuffs and drawstring waist.",
     "productUrl": "https://www.calvinklein.us",
@@ -353,7 +353,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 59.9,
+    "price": 29.9,
     "color": "Black",
     "description": "Black relaxed jogger sweatpant with elastic cuffs and drawstring waist.",
     "productUrl": "https://www.zara.com",
@@ -368,7 +368,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 49.9,
+    "price": 99.9,
     "color": "Cream",
     "description": "Cream wide-leg lounge pant in soft brushed fabric.",
     "productUrl": "https://www.zara.com",
@@ -383,7 +383,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 49.9,
+    "price": 159.9,
     "color": "Grey",
     "description": "Grey wide-leg lounge pant in soft brushed fabric.",
     "productUrl": "https://www2.hm.com",
@@ -398,7 +398,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 29.9,
+    "price": 89.9,
     "color": "Black",
     "description": "Black high-waist ribbed legging with a body-skimming fit.",
     "productUrl": "https://www2.hm.com",
@@ -413,7 +413,7 @@
       "comfy"
     ],
     "gender": "female",
-    "price": 29.9,
+    "price": 259.9,
     "color": "Charcoal",
     "description": "Charcoal high-waist ribbed legging with a body-skimming fit.",
     "productUrl": "https://www.uniqlo.com",
@@ -428,7 +428,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 89.9,
+    "price": 99.9,
     "color": "Sand",
     "description": "Sand short-sleeve linen camp-collar shirt with a relaxed fit.",
     "productUrl": "https://www.zara.com",
@@ -443,7 +443,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 29.9,
+    "price": 79.9,
     "color": "White",
     "description": "White short-sleeve linen camp-collar shirt with a relaxed fit.",
     "productUrl": "https://www2.hm.com",
@@ -458,7 +458,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 69.9,
+    "price": 179.9,
     "color": "Tropical Print",
     "description": "Tropical Print short-sleeve resort shirt in a breezy printed weave.",
     "productUrl": "https://www2.hm.com",
@@ -473,7 +473,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 279.9,
     "color": "Navy Stripe",
     "description": "Navy Stripe short-sleeve resort shirt in a breezy printed weave.",
     "productUrl": "https://www.uniqlo.com",
@@ -488,7 +488,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 49.9,
+    "price": 29.9,
     "color": "White",
     "description": "White terry cloth polo with ribbed collar, breathable and absorbent.",
     "productUrl": "https://www.uniqlo.com",
@@ -503,7 +503,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 150,
+    "price": 45,
     "color": "Ocean Blue",
     "description": "Ocean Blue terry cloth polo with ribbed collar, breathable and absorbent.",
     "productUrl": "https://www.calvinklein.us",
@@ -518,7 +518,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 150,
+    "price": 205,
     "color": "Ivory",
     "description": "Ivory sleeveless linen tank with a relaxed drape.",
     "productUrl": "https://www.calvinklein.us",
@@ -533,7 +533,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 220,
+    "price": 125,
     "color": "Coral",
     "description": "Coral sleeveless linen tank with a relaxed drape.",
     "productUrl": "https://www.hugoboss.com",
@@ -548,7 +548,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 130,
+    "price": 60,
     "color": "White",
     "description": "White open-stitch crochet cover-up top with a relaxed fit.",
     "productUrl": "https://www.hugoboss.com",
@@ -563,7 +563,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 79.9,
+    "price": 29.9,
     "color": "Natural",
     "description": "Natural open-stitch crochet cover-up top with a relaxed fit.",
     "productUrl": "https://www.zara.com",
@@ -578,7 +578,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 69.9,
+    "price": 89.9,
     "color": "Yellow",
     "description": "Yellow off-shoulder blouse in a lightweight, breezy fabric.",
     "productUrl": "https://www.zara.com",
@@ -593,7 +593,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 49.9,
+    "price": 289.9,
     "color": "White",
     "description": "White off-shoulder blouse in a lightweight, breezy fabric.",
     "productUrl": "https://www2.hm.com",
@@ -608,7 +608,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 89.9,
     "color": "Ocean Blue",
     "description": "Ocean Blue quick-dry drawstring beach short with mesh lining.",
     "productUrl": "https://www2.hm.com",
@@ -623,7 +623,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 179.9,
     "color": "Coral",
     "description": "Coral quick-dry drawstring beach short with mesh lining.",
     "productUrl": "https://www.uniqlo.com",
@@ -638,7 +638,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 259.9,
     "color": "Navy",
     "description": "Navy tailored swim-to-street short in quick-dry fabric.",
     "productUrl": "https://www.uniqlo.com",
@@ -653,7 +653,7 @@
       "beach"
     ],
     "gender": "male",
-    "price": 60,
+    "price": 55,
     "color": "Stone",
     "description": "Stone tailored swim-to-street short in quick-dry fabric.",
     "productUrl": "https://www.calvinklein.us",
@@ -668,7 +668,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 120,
+    "price": 205,
     "color": "Sun Bleached Yellow",
     "description": "Sun Bleached Yellow wide-leg linen trouser with an elastic waist.",
     "productUrl": "https://www.calvinklein.us",
@@ -683,7 +683,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 110,
+    "price": 120,
     "color": "White",
     "description": "White wide-leg linen trouser with an elastic waist.",
     "productUrl": "https://www.hugoboss.com",
@@ -698,7 +698,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 330,
+    "price": 55,
     "color": "Coral",
     "description": "Coral flowy palazzo pant with a high waist and wide drape.",
     "productUrl": "https://www.hugoboss.com",
@@ -713,7 +713,7 @@
       "beach"
     ],
     "gender": "female",
-    "price": 49.9,
+    "price": 259.9,
     "color": "Turquoise",
     "description": "Turquoise flowy palazzo pant with a high waist and wide drape.",
     "productUrl": "https://www.zara.com",
@@ -728,7 +728,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 79.9,
+    "price": 259.9,
     "color": "Midnight Navy",
     "description": "Midnight Navy silk button-up shirt with a sheen finish.",
     "productUrl": "https://www.zara.com",
@@ -743,7 +743,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 59.9,
+    "price": 159.9,
     "color": "Black",
     "description": "Black silk button-up shirt with a sheen finish.",
     "productUrl": "https://www2.hm.com",
@@ -758,7 +758,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 49.9,
+    "price": 99.9,
     "color": "Emerald",
     "description": "Emerald silk button-up shirt with a sheen finish.",
     "productUrl": "https://www.uniqlo.com",
@@ -773,7 +773,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 49.9,
+    "price": 299.9,
     "color": "Burgundy",
     "description": "Burgundy textured jacquard shirt with a subtle woven pattern.",
     "productUrl": "https://www2.hm.com",
@@ -788,7 +788,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 179.9,
     "color": "Black",
     "description": "Black textured jacquard shirt with a subtle woven pattern.",
     "productUrl": "https://www.uniqlo.com",
@@ -803,7 +803,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 150,
+    "price": 55,
     "color": "Gold",
     "description": "Gold textured jacquard shirt with a subtle woven pattern.",
     "productUrl": "https://www.calvinklein.us",
@@ -833,7 +833,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 120,
+    "price": 200,
     "color": "Charcoal",
     "description": "Charcoal fine-knit turtleneck with a sleek, fitted silhouette.",
     "productUrl": "https://www.calvinklein.us",
@@ -848,7 +848,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 120,
+    "price": 60,
     "color": "Bottle Green",
     "description": "Bottle Green fine-knit turtleneck with a sleek, fitted silhouette.",
     "productUrl": "https://www.hugoboss.com",
@@ -863,7 +863,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 60,
+    "price": 335,
     "color": "Black Sequin",
     "description": "Black Sequin sequin-embellished blazer with structured shoulders.",
     "productUrl": "https://www.calvinklein.us",
@@ -878,7 +878,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 130,
+    "price": 120,
     "color": "Gold Sequin",
     "description": "Gold Sequin sequin-embellished blazer with structured shoulders.",
     "productUrl": "https://www.hugoboss.com",
@@ -893,7 +893,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 2800,
+    "price": 130,
     "color": "Silver Sequin",
     "description": "Silver Sequin sequin-embellished blazer with structured shoulders.",
     "productUrl": "https://www.gucci.com",
@@ -908,7 +908,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 190,
+    "price": 55,
     "color": "Gunmetal Sequin",
     "description": "Gunmetal Sequin sequin-embellished statement top with a fitted silhouette.",
     "productUrl": "https://www.hugoboss.com",
@@ -923,7 +923,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 680,
+    "price": 225,
     "color": "Black Sequin",
     "description": "Black Sequin sequin-embellished statement top with a fitted silhouette.",
     "productUrl": "https://www.gucci.com",
@@ -938,7 +938,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 2220,
+    "price": 70,
     "color": "Rose Gold Sequin",
     "description": "Rose Gold Sequin sequin-embellished statement top with a fitted silhouette.",
     "productUrl": "https://www.ysl.com",
@@ -953,7 +953,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 500,
+    "price": 135,
     "color": "Champagne",
     "description": "Champagne satin cami top with adjustable straps and a bias-cut drape.",
     "productUrl": "https://www.gucci.com",
@@ -968,7 +968,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 580,
+    "price": 375,
     "color": "Black",
     "description": "Black satin cami top with adjustable straps and a bias-cut drape.",
     "productUrl": "https://www.ysl.com",
@@ -983,7 +983,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 3190,
+    "price": 120,
     "color": "Emerald",
     "description": "Emerald satin cami top with adjustable straps and a bias-cut drape.",
     "productUrl": "https://www.louisvuitton.com",
@@ -998,7 +998,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 2340,
+    "price": 120,
     "color": "Black",
     "description": "Black sheer mesh panel top with strategic paneling.",
     "productUrl": "https://www.ysl.com",
@@ -1013,7 +1013,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 700,
+    "price": 215,
     "color": "Nude",
     "description": "Nude sheer mesh panel top with strategic paneling.",
     "productUrl": "https://www.louisvuitton.com",
@@ -1028,7 +1028,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 39.9,
+    "price": 269.9,
     "color": "Silver",
     "description": "Silver sheer mesh panel top with strategic paneling.",
     "productUrl": "https://www.zara.com",
@@ -1043,7 +1043,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 1930,
+    "price": 60,
     "color": "Gold",
     "description": "Gold metallic wrap top with a draped, fitted silhouette.",
     "productUrl": "https://www.louisvuitton.com",
@@ -1058,7 +1058,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 59.9,
+    "price": 159.9,
     "color": "Silver",
     "description": "Silver metallic wrap top with a draped, fitted silhouette.",
     "productUrl": "https://www.zara.com",
@@ -1073,7 +1073,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 39.9,
+    "price": 289.9,
     "color": "Bronze",
     "description": "Bronze metallic wrap top with a draped, fitted silhouette.",
     "productUrl": "https://www2.hm.com",
@@ -1088,7 +1088,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 49.9,
+    "price": 29.9,
     "color": "Black",
     "description": "Black tailored dress trouser with a sharp straight-leg cut.",
     "productUrl": "https://www.zara.com",
@@ -1118,7 +1118,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 269.9,
     "color": "Navy",
     "description": "Navy tailored dress trouser with a sharp straight-leg cut.",
     "productUrl": "https://www.uniqlo.com",
@@ -1133,7 +1133,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 279.9,
     "color": "Burgundy",
     "description": "Burgundy slim velvet trouser with a rich, luxe texture.",
     "productUrl": "https://www2.hm.com",
@@ -1148,7 +1148,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 19.9,
+    "price": 179.9,
     "color": "Black",
     "description": "Black slim velvet trouser with a rich, luxe texture.",
     "productUrl": "https://www.uniqlo.com",
@@ -1163,7 +1163,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 80,
+    "price": 205,
     "color": "Emerald",
     "description": "Emerald slim velvet trouser with a rich, luxe texture.",
     "productUrl": "https://www.calvinklein.us",
@@ -1178,7 +1178,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 29.9,
+    "price": 79.9,
     "color": "Black",
     "description": "Black tuxedo trouser with a satin side stripe.",
     "productUrl": "https://www.uniqlo.com",
@@ -1193,7 +1193,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 150,
+    "price": 120,
     "color": "Black",
     "description": "Black tuxedo trouser with a satin side stripe.",
     "productUrl": "https://www.calvinklein.us",
@@ -1208,7 +1208,7 @@
       "party"
     ],
     "gender": "male",
-    "price": 260,
+    "price": 55,
     "color": "Black",
     "description": "Black tuxedo trouser with a satin side stripe.",
     "productUrl": "https://www.hugoboss.com",
@@ -1223,7 +1223,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 140,
+    "price": 195,
     "color": "Black",
     "description": "Black slim dress pant with a tailored, knife-crease finish.",
     "productUrl": "https://www.calvinklein.us",
@@ -1253,7 +1253,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 2070,
+    "price": 145,
     "color": "Ivory",
     "description": "Ivory slim dress pant with a tailored, knife-crease finish.",
     "productUrl": "https://www.gucci.com",
@@ -1268,7 +1268,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 120,
+    "price": 60,
     "color": "Champagne",
     "description": "Champagne satin wide-leg trouser with a fluid drape.",
     "productUrl": "https://www.hugoboss.com",
@@ -1283,7 +1283,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 1430,
+    "price": 340,
     "color": "Black",
     "description": "Black satin wide-leg trouser with a fluid drape.",
     "productUrl": "https://www.gucci.com",
@@ -1298,7 +1298,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 970,
+    "price": 355,
     "color": "Emerald",
     "description": "Emerald satin wide-leg trouser with a fluid drape.",
     "productUrl": "https://www.ysl.com",
@@ -1313,7 +1313,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 2340,
+    "price": 60,
     "color": "Black Sequin",
     "description": "Black Sequin sequin-embellished flare trouser with a subtle flare.",
     "productUrl": "https://www.gucci.com",
@@ -1328,7 +1328,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 2230,
+    "price": 70,
     "color": "Gold Sequin",
     "description": "Gold Sequin sequin-embellished flare trouser with a subtle flare.",
     "productUrl": "https://www.ysl.com",
@@ -1343,7 +1343,7 @@
       "party"
     ],
     "gender": "female",
-    "price": 2320,
+    "price": 220,
     "color": "Black Sequin",
     "description": "Black Sequin sequin-embellished flare trouser with a subtle flare.",
     "productUrl": "https://www.louisvuitton.com",

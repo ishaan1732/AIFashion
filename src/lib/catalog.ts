@@ -37,12 +37,26 @@ export function searchCatalog(filters: SearchFilters): CatalogItem[] {
       item.price <= maxBudget
   );
 
+  // Fallbacks widen the budget window to ±50% of the tier's own range rather than
+  // dropping the price constraint entirely — only the final gender-only fallback does that.
+  const widenedMinBudget = minBudget * 0.5;
+  const widenedMaxBudget = maxBudget >= 9999 ? 9999 : maxBudget * 1.5;
+
   const genderCategoryVibe = fullCatalog.filter(
-    (item) => item.gender === gender && item.category === category && item.vibe.includes(vibe)
+    (item) =>
+      item.gender === gender &&
+      item.category === category &&
+      item.vibe.includes(vibe) &&
+      item.price >= widenedMinBudget &&
+      item.price <= widenedMaxBudget
   );
 
   const genderCategoryOnly = fullCatalog.filter(
-    (item) => item.gender === gender && item.category === category
+    (item) =>
+      item.gender === gender &&
+      item.category === category &&
+      item.price >= widenedMinBudget &&
+      item.price <= widenedMaxBudget
   );
 
   const genderOnly = fullCatalog.filter((item) => item.gender === gender);
